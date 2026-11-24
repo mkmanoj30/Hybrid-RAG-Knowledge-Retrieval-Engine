@@ -1,0 +1,22 @@
+[
+  {
+    "chunk_id": "af6e0de8",
+    "document_name": "ad_hoc_test.md",
+    "section_path": "Developer Workstation Provisioning Standards > Section 1: Memory & Compute Allocations",
+    "content": "All new engineering hires receive standardized laptop hardware based on their assigned track.\nPlatform and DevOps engineers are allocated machines with 32 GB of unified memory.\nQuality Assurance and Automation engineers are provisioned with 16 GB of unified memory.",
+    "token_count": 39,
+    "metadata": {
+      "type": "standard_section"
+    }
+  },
+  {
+    "chunk_id": "2283b693",
+    "document_name": "ad_hoc_test.md",
+    "section_path": "Developer Workstation Provisioning Standards > Section 2: Storage Retention",
+    "content": "Local temporary build artifacts stored in `/tmp/builds` are automatically purged every 24 hours.\nProject repositories cloned in the primary workspace directory are exempted from automatic cleanup routines.",
+    "token_count": 27,
+    "metadata": {
+      "type": "standard_section"
+    }
+  }
+]

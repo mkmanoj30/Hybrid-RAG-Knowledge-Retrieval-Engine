@@ -1,0 +1,18 @@
+Terminal 1: Run Project 1 (Guardrail Gateway) on port 8000:
+
+PowerShell
+cd llm-guardrail-gateway
+uvicorn app.main:app --host 127.0.0.1 --port 8000
+
+
+Terminal 2: Run Project 2 (Hybrid RAG Engine) on port 8001:
+
+PowerShell
+cd hybrid-rag-engine
+uvicorn src.api.main:app --host 127.0.0.1 --port 8001
+
+
+Terminal 3: Execute the pipeline orchestrator:
+
+PowerShell
+python scripts/query_pipeline.py
