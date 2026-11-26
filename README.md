@@ -4,7 +4,7 @@
 
 A low-latency, structure-aware hybrid retrieval microservice combining dense semantic vector search (**FAISS** + `all-MiniLM-L6-v2`) with sparse lexical keyword matching (**BM25**), unified through **Reciprocal Rank Fusion (RRF)** to deliver grounded context chunks for enterprise LLM workflows.
 
-> **Gateway Integration:** Designed to operate standalone on port `8001` or serve as the retrieval upstream for the [**LLM Guardrail & Routing Gateway**](https://github.com/manoj__kmr/llm-guardrail-gateway) (`:8000`) to enforce PII redaction, dynamic model tiering, and egress faithfulness verification.
+> **Gateway Integration:** Designed to operate standalone on port `8001` or serve as the retrieval upstream for the [**LLM Guardrail & Routing Gateway**](https://github.com/mkmanoj30/LLM-Guardrail-Automated-Evaluation-Gateway) (`:8000`) to enforce PII redaction, dynamic model tiering, and egress faithfulness verification.
 
 ---
 
